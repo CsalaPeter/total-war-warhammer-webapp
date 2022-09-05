@@ -1,0 +1,99 @@
+[
+  {
+    "id": "1",
+    "name": "Beastman",
+    "factions": [
+      "Harbinger of Disaster",
+      "Slaughterhorn Tribe",
+      "Warherd of the One-Eye",
+      "Warherd of the Shadowgave"
+    ],
+
+    "img": [
+      "/img/factions/Beastmen/Harbinger_of_Disaster.png",
+      "/img/factions/Beastmen/Slaughterhorn_Tribe.png",
+      "/img/factions/Beastmen/One_Eye.png",
+      "/img/factions/Beastmen/Warherd_of_the_Shadowgave.png"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Bretonnia"
+  },
+  {
+    "id": "3",
+    "name": "Deamons of Chaos"
+  },
+  {
+    "id": "4",
+    "name": "Dark Elves"
+  },
+  {
+    "id": "5",
+    "name": "Dwarfs"
+  },
+  {
+    "id": "6",
+    "name": "Grand Cathay"
+  },
+  {
+    "id": "7",
+    "name": "Greenskins"
+  },
+  {
+    "id": "8",
+    "name": "High Elves"
+  },
+  {
+    "id": "9",
+    "name": "Khorne"
+  },
+  {
+    "id": "10",
+    "name": "Kislev"
+  },
+  {
+    "id": "11",
+    "name": "Nurgle"
+  },
+  {
+    "id": "12",
+    "name": "Ogre Kingdoms"
+  },
+  {
+    "id": "13",
+    "name": "Skaven"
+  },
+  {
+    "id": "14",
+    "name": "Slaanesh"
+  },
+  {
+    "id": "15",
+    "name": "The Empire"
+  },
+  {
+    "id": "16",
+    "name": "Tomb Kings"
+  },
+  {
+    "id": "17",
+    "name": "Tzeentch"
+  },
+  {
+    "id": "18",
+    "name": "Vampire Coast"
+  },
+  {
+    "id": "19",
+    "name": "Vampire Counts"
+  },
+  {
+    "id": "20",
+    "name": "Warriors of Chaos"
+  },
+  {
+    "id": "21",
+    "name": "Wood Elves"
+  }
+]
