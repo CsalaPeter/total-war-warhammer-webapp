@@ -42,11 +42,19 @@ const RacesAndFactions = () => {
         {races.map((race, key) => {
           return (
             <div className="cardHolder" key={key}>
-              <RaceCard
-                name={race.name}
-                factions={race.factions}
-                image={race.img}
-              />
+              <div className="raceName">{race.name}</div>
+              <div className="factionImages">
+                {race.factions?.map((faction, index) => (
+                  <img
+                    key={index}
+                    className="factionIcon"
+                    src={faction.image}
+                    alt="Faction Icon"
+                    title={faction.name}
+                  />
+                ))}
+              </div>
+              <Buttons />
             </div>
           );
         })}
@@ -55,11 +63,12 @@ const RacesAndFactions = () => {
   );
 };
 
-const RaceCard = ({ name, factions }) => {
+const Buttons = () => {
   return (
-    <div className="wrapper">
-      <div className="cardName">{name}</div>
-      <div className="factions">{factions}</div>
+    <div>
+      <button className="raceButtons">Buildings</button>
+      <button className="raceButtons">Tech Tree</button>
+      <button className="raceButtons">Unites</button>
     </div>
   );
 };

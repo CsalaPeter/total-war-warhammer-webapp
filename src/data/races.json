@@ -3,97 +3,462 @@
     "id": "1",
     "name": "Beastman",
     "factions": [
-      "Harbinger of Disaster",
-      "Slaughterhorn Tribe",
-      "Warherd of the One-Eye",
-      "Warherd of the Shadowgave"
-    ],
-
-    "img": [
-      "/img/factions/Beastmen/Harbinger_of_Disaster.png",
-      "/img/factions/Beastmen/Slaughterhorn_Tribe.png",
-      "/img/factions/Beastmen/One_Eye.png",
-      "/img/factions/Beastmen/Warherd_of_the_Shadowgave.png"
+      {
+        "name": "Harbinger of Disaster",
+        "image": "/img/factions/Beastmen/Harbinger_of_Disaster.png"
+      },
+      {
+        "name": "Slaughterhorn Tribe",
+        "image": "/img/factions/Beastmen/Slaughterhorn_Tribe.png"
+      },
+      {
+        "name": "Warherd of the One-Eye",
+        "image": "/img/factions/Beastmen/One_Eye.png"
+      },
+      {
+        "name": "Warherd of the Shadowgave",
+        "image": "/img/factions/Beastmen/Warherd_of_the_Shadowgave.png"
+      }
     ]
   },
   {
     "id": "2",
-    "name": "Bretonnia"
+    "name": "Bretonnia",
+    "factions": [
+      {
+        "name": "Bordeleaux",
+        "image": "/img/factions/Bretonnia/Bordeleaux.png"
+      },
+      {
+        "name": "Carcassonne",
+        "image": "/img/factions/Bretonnia/Carcassonne.png"
+      },
+      {
+        "name": "Chevaliers de Lyonesse",
+        "image": "/img/factions/Bretonnia/Chevaliers_de_Lyonesse.png"
+      },
+      {
+        "name": "Couronne",
+        "image": "/img/factions/Bretonnia/Couronne.png"
+      }
+    ]
   },
   {
     "id": "3",
-    "name": "Deamons of Chaos"
+    "name": "Deamons of Chaos",
+    "factions": [
+      {
+        "name": "Legion of Chaos",
+        "image": "/img/factions/DeamonsOfChaos/Legion_of_Chaos.png"
+      }
+    ]
   },
   {
     "id": "4",
-    "name": "Dark Elves"
+    "name": "Dark Elves",
+    "factions": [
+      {
+        "name": "Cult of Pleasure",
+        "image": "/img/factions/DarkElves/Cult_of_Pleasure.png"
+      },
+      {
+        "name": "Hag Graef",
+        "image": "/img/factions/DarkElves/Hag_Graef.png"
+      },
+      {
+        "name": "Har Ganeth",
+        "image": "/img/factions/DarkElves/Har_Ganeth.png"
+      },
+      {
+        "name": "Naggarond",
+        "image": "/img/factions/DarkElves/Naggarond.png"
+      },
+      {
+        "name": "The Blessed Dread",
+        "image": "/img/factions/DarkElves/The_Blessed_Dread.png"
+      },
+      {
+        "name": "The Thousand Maws",
+        "image": "/img/factions/DarkElves/The_Thousand_Maws.png"
+      }
+    ]
   },
   {
     "id": "5",
-    "name": "Dwarfs"
+    "name": "Dwarfs",
+    "factions": [
+      {
+        "name": "Clan Angrund",
+        "image": "/img/factions/Dwarfs/Clan_Angrund.png"
+      },
+      {
+        "name": "Ironbrow's Expedition",
+        "image": "/img/factions/Dwarfs/Ironbrows_Expedition.png"
+      },
+      {
+        "name": "Karak Kadrin",
+        "image": "/img/factions/Dwarfs/Karak_Kadrin.png"
+      },
+      {
+        "name": "Karaz-a-Karak",
+        "image": "/img/factions/Dwarfs/Karaz-a-Karak.png"
+      },
+      {
+        "name": "The Ancestral Throng",
+        "image": "/img/factions/Dwarfs/The_Ancestral_Throng.png"
+      }
+    ]
   },
   {
     "id": "6",
-    "name": "Grand Cathay"
+    "name": "Grand Cathay",
+    "factions": [
+      {
+        "name": "The Northern Provinces",
+        "image": "/img/factions/Cathay/The_Northern_Provinces.png"
+      },
+      {
+        "name": "",
+        "image": "/img/factions/Cathay/The_Western_Provinces.png"
+      }
+    ]
   },
   {
     "id": "7",
-    "name": "Greenskins"
+    "name": "Greenskins",
+    "factions": [
+      {
+        "name": "Bonerattlaz",
+        "image": "/img/factions/Greenskins/Bonerattlaz.png"
+      },
+      {
+        "name": "Broken Axe",
+        "image": "/img/factions/Greenskins/Broken_Axe.png"
+      },
+      {
+        "name": "Crooked Moon",
+        "image": "/img/factions/Greenskins/Crooked_Moon.png"
+      },
+      {
+        "name": "Grimgor's 'Ardboyz",
+        "image": "/img/factions/Greenskins/Grimgors_Ardboyz.png"
+      },
+      {
+        "name": "The Bloody Handz",
+        "image": "/img/factions/Greenskins/The_Bloody_Handz.png"
+      }
+    ]
   },
   {
     "id": "8",
-    "name": "High Elves"
+    "name": "High Elves",
+    "factions": [
+      {
+        "name": "Avelorn",
+        "image": "/img/factions/HighElves/Avelorn.png"
+      },
+      {
+        "name": "Eataine",
+        "image": "/img/factions/HighElves/Eataine.png"
+      },
+      {
+        "name": "Knights of Caledor",
+        "image": "/img/factions/HighElves/Knights_of_Caledor.png"
+      },
+      {
+        "name": "Nagarythe",
+        "image": "/img/factions/HighElves/Nagarythe.png"
+      },
+      {
+        "name": "Order of Loremasters",
+        "image": "/img/factions/HighElves/Order_of_Loremasters.png"
+      },
+      {
+        "name": "Yvresse",
+        "image": "/img/factions/HighElves/Yvresse.png"
+      }
+    ]
   },
   {
     "id": "9",
-    "name": "Khorne"
+    "name": "Khorne",
+    "factions": [
+      {
+        "name": "Exiles of Khorne",
+        "image": "/img/factions/Khorne/Exiles_of_Khorne.png"
+      }
+    ]
   },
   {
     "id": "10",
-    "name": "Kislev"
+    "name": "Kislev",
+    "factions": [
+      {
+        "name": "The Great Orthodoxy",
+        "image": "/img/factions/Kislev/The_Great_Orthodoxy.png"
+      },
+      {
+        "name": "The Ice Court",
+        "image": "/img/factions/Kislev/The_Ice_Court.png"
+      },
+      {
+        "name": "Ursun Revivalists",
+        "image": "/img/factions/Kislev/Ursun_Revivalists.png"
+      }
+    ]
   },
   {
     "id": "11",
-    "name": "Nurgle"
+    "name": "Lizardmen",
+    "factions": [
+      {
+        "name": "Cult of Sotek",
+        "image": "/img/factions/Lizardmen/Cult_of_Sotek.png"
+      },
+      {
+        "name": "Ghosts of Pahuax",
+        "image": "/img/factions/Lizardmen/Ghosts_of_Pahuax.png"
+      },
+      {
+        "name": "Hexoatl",
+        "image": "/img/factions/Lizardmen/Hexoatl.png"
+      },
+      {
+        "name": "Itza",
+        "image": "/img/factions/Lizardmen/Itza.png"
+      },
+      {
+        "name": "Last Defenders",
+        "image": "/img/factions/Lizardmen/Last_Defenders.png"
+      },
+      {
+        "name": "Spirit of the Jungle",
+        "image": "/img/factions/Lizardmen/Spirit_of_the_Jungle.png"
+      },
+      {
+        "name": "Tlaqua",
+        "image": "/img/factions/Lizardmen/Tlaqua.png"
+      }
+    ]
   },
   {
     "id": "12",
-    "name": "Ogre Kingdoms"
+    "name": "Norsca",
+    "factions": [
+      {
+        "name": "Wintertooth",
+        "image": "/img/factions/Norsca/Wintertooth.png"
+      },
+      {
+        "name": "World Walkers",
+        "image": "/img/factions/Norsca/World_Walkers.png"
+      }
+    ]
   },
   {
     "id": "13",
-    "name": "Skaven"
+    "name": "Nurgle",
+    "factions": [
+      {
+        "name": "Poxmakers of Nurgle",
+        "image": "/img/factions/Nurgle/Poxmakers_of_Nurgle.png"
+      }
+    ]
   },
   {
     "id": "14",
-    "name": "Slaanesh"
+    "name": "Ogre Kingdoms",
+    "factions": [
+      {
+        "name": "Disciples of the Maw",
+        "image": "/img/factions/OgreKingdoms/Disciples_of_the_Maw.png"
+      },
+      {
+        "name": "Goldtooth",
+        "image": "/img/factions/OgreKingdoms/Goldtooth.png"
+      }
+    ]
   },
   {
     "id": "15",
-    "name": "The Empire"
+    "name": "Skaven",
+    "factions": [
+      {
+        "name": "Clan Eshin",
+        "image": "/img/factions/Skaven/Clan_Eshin.png"
+      },
+      {
+        "name": "Clan Mors",
+        "image": "/img/factions/Skaven/Clan_Mors.png"
+      },
+      {
+        "name": "Clan Moulder",
+        "image": "/img/factions/Skaven/Clan_Moulder.png"
+      },
+      {
+        "name": "Clan Pestilens",
+        "image": "/img/factions/Skaven/Clan_Pestilens.png"
+      },
+      {
+        "name": "Clan Rictus",
+        "image": "/img/factions/Skaven/Clan_Rictus.png"
+      },
+      {
+        "name": "Clan Skryre",
+        "image": "/img/factions/Skaven/Clan_Skryre.png"
+      }
+    ]
   },
   {
     "id": "16",
-    "name": "Tomb Kings"
+    "name": "Slaanesh",
+    "factions": [
+      {
+        "name": "Seducers of Slaanesh",
+        "image": "/img/factions/Slaanesh/Seducers_of_Slaanesh.png"
+      }
+    ]
   },
   {
     "id": "17",
-    "name": "Tzeentch"
+    "name": "The Empire",
+    "factions": [
+      {
+        "name": "Reikland",
+        "image": "/img/factions/Empire/Reikland.png"
+      },
+      {
+        "name": "The Cult of Sigmar",
+        "image": "/img/factions/Empire/The_Cult_of_Sigmar.png"
+      },
+      {
+        "name": "The Golden Order",
+        "image": "/img/factions/Empire/The_Golden_Order.png"
+      },
+      {
+        "name": "The Huntsmarshal's Expedition",
+        "image": "/img/factions/Empire/The_Huntsmarshals_Expedition.png"
+      }
+    ]
   },
   {
     "id": "18",
-    "name": "Vampire Coast"
+    "name": "Tomb Kings",
+    "factions": [
+      {
+        "name": "Court of Lybaras",
+        "image": "/img/factions/TombKings/Court_of_Lybaras.png"
+      },
+      {
+        "name": "Exiles of Nehek",
+        "image": "/img/factions/TombKings/Exiles_of_Nehek.png"
+      },
+      {
+        "name": "Followers of Nagash",
+        "image": "/img/factions/TombKings/Followers_of_Nagash.png"
+      },
+      {
+        "name": "Khemri",
+        "image": "/img/factions/TombKings/Khemri.png"
+      }
+    ]
   },
   {
     "id": "19",
-    "name": "Vampire Counts"
+    "name": "Tzeentch",
+    "factions": [
+      {
+        "name": "Oracles of Tzeentch",
+        "image": "/img/factions/Tzeentch/Oracles_of_Tzeentch.png"
+      }
+    ]
   },
   {
     "id": "20",
-    "name": "Warriors of Chaos"
+    "name": "Vampire Coast",
+    "factions": [
+      {
+        "name": "Pirates of Sartosa",
+        "image": "/img/factions/VampireCoast/Pirates_of_Sartosa.png"
+      },
+      {
+        "name": "The Awakened",
+        "image": "/img/factions/VampireCoast/The_Awakened.png"
+      },
+      {
+        "name": "The Dreadfleet",
+        "image": "/img/factions/VampireCoast/The_Dreadfleet.png"
+      },
+      {
+        "name": "The Drowned",
+        "image": "/img/factions/VampireCoast/The_Drowned.png"
+      }
+    ]
   },
   {
     "id": "21",
-    "name": "Wood Elves"
+    "name": "Vampire Counts",
+    "factions": [
+      {
+        "name": "Caravan of Blue Roses",
+        "image": "/img/factions/VampireCounts/Caravan_of_Blue_Roses.png"
+      },
+      {
+        "name": "Sylvania",
+        "image": "/img/factions/VampireCounts/Sylvania.png"
+      },
+      {
+        "name": "The Barrow Legion",
+        "image": "/img/factions/VampireCounts/The_Barrow_Legion.png"
+      },
+      {
+        "name": "The Drakenhof Conclave",
+        "image": "/img/factions/VampireCounts/The_Drakenhof_Conclave.png"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Warriors of Chaos",
+    "factions": [
+      {
+        "name": "Heralds of the Tempest",
+        "image": "/img/factions/WarriorsOfChaos/Heralds_of_the_Tempest.png"
+      },
+      {
+        "name": "The Decadent Host",
+        "image": "/img/factions/WarriorsOfChaos/The_Decadent_Host.png"
+      },
+      {
+        "name": "Warhost of the Apocalypse",
+        "image": "/img/factions/WarriorsOfChaos/Warhost_of_the_Apocalypse.png"
+      },
+      {
+        "name": "Shadow Legion",
+        "image": "/img/factions/WarriorsOfChaos/Shadow_Legion.png"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Wood Elves",
+    "factions": [
+      {
+        "name": "Argwylon",
+        "image": "/img/factions/WoodElves/Argwylon.png"
+      },
+      {
+        "name": "Heralds of Ariel",
+        "image": "/img/factions/WoodElves/Heralds_of_Ariel.png"
+      },
+      {
+        "name": "Talsyn",
+        "image": "/img/factions/WoodElves/Talsyn.png"
+      },
+      {
+        "name": "Wargrove of Woe",
+        "image": "/img/factions/WoodElves/Wargrove_of_Woe.png"
+      }
+    ]
   }
 ]

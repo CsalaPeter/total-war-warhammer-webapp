@@ -27,12 +27,35 @@ body {
 }
 
 .cardHolder {
+  border: 2px solid black;
+  width: 300px;
+}
+
+.raceName {
+  margin-block: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: large;
+}
+
+.listing {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
 
-.raceCard {
-  max-width: 200px;
-  border: 2px solid black;
+.factionIcon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.factionImages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  justify-items: center;
+}
+
+.raceButtons {
+  width: 100px;
 }
