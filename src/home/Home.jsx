@@ -1,5 +1,6 @@
 import "../sass/global.scss";
 import races from "../data/races.json";
+import { Link } from "react-router-dom";
 
 function Home() {
   console.log(races);
@@ -39,19 +40,23 @@ const RacesAndFactions = () => {
         <h2 className="contentHeader">Races And Factions</h2>
       </header>
       <div className="listing">
-        {races.map((race, key) => {
+        {races.map((race) => {
           return (
-            <div className="cardHolder" key={key}>
-              <div className="raceName">{race.name}</div>
+            <div className="cardHolder" key={race.id}>
+              <Link to="/race" state={race.name}>
+                <div className="raceName">{race.name}</div>
+              </Link>
               <div className="factionImages">
-                {race.factions?.map((faction, index) => (
-                  <img
-                    key={index}
-                    className="factionIcon"
-                    src={faction.image}
-                    alt="Faction Icon"
-                    title={faction.name}
-                  />
+                {race.factions?.map((faction, key) => (
+                  <Link to="/faction" state={faction.name}>
+                    <img
+                      key={key}
+                      className="factionIcon"
+                      src={faction.image}
+                      alt="Faction Icon"
+                      title={faction.name}
+                    />
+                  </Link>
                 ))}
               </div>
               <Buttons />
@@ -66,9 +71,15 @@ const RacesAndFactions = () => {
 const Buttons = () => {
   return (
     <div>
-      <button className="raceButtons">Buildings</button>
-      <button className="raceButtons">Tech Tree</button>
-      <button className="raceButtons">Unites</button>
+      <Link to="buildings">
+        <button className="raceButtons">Buildings</button>
+      </Link>
+      <Link to="/tech_tree">
+        <button className="raceButtons">Tech Tree</button>
+      </Link>
+      <Link to="/unites">
+        <button className="raceButtons">Unites</button>
+      </Link>
     </div>
   );
 };
